@@ -163,6 +163,8 @@ Ensure your backend server implements the following endpoints:
 - GET `/api/ranges-and-difficulties`
 - POST `/api/sessions/:sessionId/end`
 
+My example backend can be found [here](https://github.com/adamrichardturner/numberninja-api).
+
 ## 🔒 Security
 
 - Firebase Authentication for user management
@@ -183,15 +185,3 @@ Ensure your backend server implements the following endpoints:
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 📧 Support
-
-For support, please visit:
-
-- Documentation: https://numberninja.app/docs
-- Support Portal: https://numberninja.app/support
-- Email: support@numberninja.app

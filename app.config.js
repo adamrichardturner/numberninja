@@ -31,7 +31,7 @@ export default {
     ],
     extra: {
       eas: {
-        projectId: 'ffb6462b-8766-4a23-aa32-a7e3330d6506',
+        projectId: 'YOUR_PROJECT_ID',
       },
       apiUrl: process.env.API_URL || 'https://your.backend.server',
     },
@@ -53,8 +53,7 @@ export default {
       buildNumber: process.env.EAS_BUILD_NUMBER || '8',
       config: {
         googleSignIn: {
-          reservedClientId:
-            'com.googleusercontent.apps.326326908458-a8hb89hnk7qrv2smv3jb9qg0ksr32lv4',
+          reservedClientId: 'YOUR_CLIENT_ID',
         },
       },
       googleServicesFile: './GoogleService-Info.plist',
